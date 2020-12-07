@@ -6,6 +6,7 @@
 # USE:
 # On the device side:
 # 	Put script in /var/prtg/scriptsxml/ - if folder does not exist, create it
+#	wget https://raw.githubusercontent.com/async-it/PRTG_pve_storages_cap_monitoring/main/prtg_pve_storage_cap_monitoring.sh
 # 	chmod +x the script to make it executable
 # 	Add advanced ssh script sensor
 # 	Name sensor and select the script - adjust Scan interval in case of need
