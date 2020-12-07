@@ -15,7 +15,7 @@
 
 # Version:
 # Version 1.0 - Initial release
-
+# Version 1.1 - Fixed floating values
 
 # ------- Limits settings -----------
 limitmaxwarning=75
