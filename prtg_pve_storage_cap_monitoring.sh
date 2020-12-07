@@ -26,6 +26,7 @@ for DATASTORES in `pvesm status | tail -n +2  | awk '{print $1}'`; do
         capacity_percent_used=`pvesm status | awk '$1 == "'$DATASTORES'" {print $0}' | awk '{print $7}' | cut -d'%' -f1`
 			echo "<result>"
 			echo "<value>$capacity_percent_used</value>"
+			echo "<float>1</float>"
 			echo "<channel>$DATASTORES Used Capacity</channel>"
 			echo "<unit>Percent</unit>"
 			echo "<LimitMode>1</LimitMode>"
