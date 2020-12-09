@@ -1,4 +1,4 @@
-# PRTG Zpool / ZFS Monitoring
+# PRTG Proxmox Virtual Environnement Datastore monitoring
 PRTG Script to monitor Proxmox VE datastores capacity usage 
 
 
